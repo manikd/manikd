@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="xml">
+        <folder name="entities">
+            <folder name="todo_view">
+                <file name="Tasks" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--todo.view.TasksTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//todo.view//Tasks//EN"/>
+                </file>
+            </folder>
+        </folder>
+        <folder name="memory">
+            <folder name="todo">
+                <folder name="view">
+                    <file name="TasksTopComponent">
+                        <!--todo.view.TasksTopComponent-->
+                        <attr name="settings.providerPath" stringvalue="xml/lookups//todo_view/Tasks.instance"/>
+                    </file>
+                </folder>
+            </folder>
+        </folder>
+        <folder name="lookups">
+            <folder name="todo_view">
+                <file name="Tasks.instance">
+                    <!--todo.view.TasksTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="todo.view.TasksTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="todo.view.TasksTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Window">
+            <file name="todo-view-TasksTopComponent.shadow">
+                <!--todo.view.TasksTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/todo-view-TasksTopComponent.instance"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="TasksTopComponent.settings">
+                <!--todo.view.TasksTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="todo.view.TasksTopComponent"/>
+</settings>
+]]></file>
+        </folder>
+        <folder name="Modes">
+            <folder name="editor">
+                <file name="TasksTopComponent.wstcref">
+                    <!--todo.view.TasksTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="TasksTopComponent"/>
+  <state opened="true"/>
+</tc-ref>
+]]></file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Actions">
+        <folder name="Window">
+            <file name="todo-view-TasksTopComponent.instance">
+                <!--todo.view.TasksTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="todo.view.TasksTopComponent"/>
+                <attr name="preferredID" stringvalue="TasksTopComponent"/>
+                <attr bundlevalue="todo.view.Bundle#CTL_TasksAction" name="displayName"/>
+            </file>
+        </folder>
+    </folder>
+</filesystem>

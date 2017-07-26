@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript"> 
+            function submitFunction()
+            {
+                var x=document.forms["myForm"]["username"].value;
+                var y=document.forms["myForm"]["pwd"].value;
+                if (x==null||x==""||y==null||y=="")
+                {
+                   alert("Both Fields can't be empty.");
+                }
+                else
+                {
+                  if(x=="webi")
+                  {
+                      if (y=="12345")
+                      {
+                          alert ("Login Successful");
+                       }   
+                     else {
+                            alert ("Password Do Not Match");
+                            }
+                    }           
+                     else  
+                     {
+                         alert ("User Dosn't Exist");
+                     }
+                 }
+                
+            }
+            
+        </script>
+          
+        <title>Detail's</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form name="myForm" onsubmit="submitFunction()">
+            Username:<input type="text" name="username"> <br>
+            Password:<input type="password" name="pwd"> <br>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>

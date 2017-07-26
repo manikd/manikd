@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript">
+            function callme()
+            {
+                alert("Welcome");
+                var a=document.F1.T1.value;
+                var b=document.F1.T2.value;
+                var c=add(a,b); //For Return
+                alert(c);
+                mycall(3); //For Recursion
+                
+            }
+            function add(a,b)
+            {
+                return Number(a)+Number(b);
+            }
+            function showme()
+            {
+                alert("I'am Show");
+            }
+            function mycall(num)
+            {
+                var n=num-1;
+                if(n>0)
+                {
+                    alert("The value of N is" + ""+n);
+                    mycall (n);
+                }
+                else
+                {
+                    alert("Recursion Completed");
+                }    
+            }
+            
+        </script>
+        <title>Function</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form name="F1">
+            Enter the First Number <input type="text" name="T1"/><br>
+            Enter the Second Number <input type="text" name="T2"/><br>
+            <input type="button" value="click" onclick="callme()"/><br>
+        </form>
+        
+    </body>
+</html>

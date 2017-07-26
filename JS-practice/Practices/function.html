@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript">
+            function callme(str)
+            {
+                alert(str+"Friends");
+                var x=document.F1.T1.value;
+                var y=document.F1.T2.value;
+                var z=document.F1.T3.value;
+                alert(Number(x)+Number(y));
+                alert(Number(x)+Number(y)-Number(z));
+            }
+            function showme()
+            {
+                alert("I'am Show");
+            }
+            
+        </script>
+        <title>Function</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form name="F1">
+            Enter the First Number <input type="text" name="T1"/><br>
+            Enter the Second Number <input type="text" name="T2"/><br>
+            Enter the Third Number <input type="text" name="T3"/><br>
+            <input type="button" value="click" onclick="callme('Welcome')"/><br>
+            <a href="javascript:showme()"><h3>Click me</h3></a>
+        </form>
+        
+    </body>
+</html>

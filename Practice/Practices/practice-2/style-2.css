@@ -1,0 +1,68 @@
+
+body
+        {
+          background-color: yellowgreen;
+          margin: 0px;
+        }
+ 
+ .one
+        {
+           
+            
+        }
+        
+.three
+        {
+            
+        }
+.Four  {
+        
+        }
+.Five  {
+        
+        }  
+ .back
+        {
+           height: 350px;
+            width: 500px;
+            position:relative;
+            float: left;
+             border-bottom-left-radius: 20em;
+             border-bottom-right-radius: 20em; 
+        }  
+ .back2
+        {
+           height: 350px;
+            width: 500px;
+            position: relative;
+            float: right;
+              
+        }     
+ .back3
+        {
+           height: 350px;
+            width: 500px;
+           position: relative;
+          float: left;
+          top: 400px;
+        }    
+.back4
+        {
+           height: 350px;
+            width: 500px;
+          position: relative;
+          float: right;
+          top: 400px;
+        }     
+.back5
+        {
+           height: 350px;
+            width: 500px;
+            position: relative;
+            left: 425px;
+            bottom: 320px;
+            opacity: 0.7;
+            border-radius: 40px;
+        }                
+                     
+                  
