@@ -67,8 +67,19 @@ body, html{
 .ptext .border .trans{
     background-color: transparent;
 }
+.img-responsive {
+                        position: relative;
+                        opacity: 0.70;
+                        background-position: center;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        background-attachment: fixed;
+                        background-image: url('./img/img3.jpg');
+                        min-height: 100%;
+}
+
 @media(max-width:568px){
-    .pimg1, .pimg2, .pimg3{
+    .pimg1, .pimg2, .pimg3, .img-responsive{
         background-attachment: scroll;
-    }
+    }/**/
 }
