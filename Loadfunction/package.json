@@ -1,6 +1,0 @@
-{
-    "name": "Loadfunction", "version": "1.0.0", "keywords": [
-        "util", "functional", "server", "client", "browser"
-    ], "author": "Mani", "contributors": [
-    ], "dependencies": {}
-}

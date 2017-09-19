@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><module codename="todo.view">
-    <module_version install_time="1498810199695" last="true" origin="installer" specification_version="1.0">
-        <file crc="3637994958" name="config/Modules/todo-view.xml"/>
-        <file crc="2861483896" name="modules/todo-view.jar"/>
-    </module_version>
-</module>

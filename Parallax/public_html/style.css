@@ -78,8 +78,6 @@ body, html{
                         min-height: 100%;
 }
 
-@media(max-width:568px){
-    .pimg1, .pimg2, .pimg3, .img-responsive{
-        background-attachment: scroll;
-    }/**/
-}
+
+
+
